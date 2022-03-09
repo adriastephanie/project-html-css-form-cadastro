@@ -8,7 +8,7 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>Cadastre seu veículo para vender muito mais rápido!</h1>
+        <h3>Cadastre seu veículo para vender muito mais rápido!</h3>
     </div>
     <div class="form-container">
         <div class="form-header">
@@ -21,7 +21,6 @@
                 <div class="box-input">
                     <label for="title">Título do anúncio: <span class="required-field">*</span></label>
                     <input type="text" id="title" name="title" class="block" placeholder="Defina um título para seu veículo" minlength="2" maxlength="60" required>
-                    <input class="btn-submit" value="Cadastrar" type="submit">
                 </div>
                 <div class="box-input">
                     <label for="price">Preço do veículo: <span class="required-field">*</span></label>
@@ -63,7 +62,7 @@
                 </div>
 
                 <div class="box-optional">
-                    <p>Opcionais: <span class="required-field">*</span></p>
+                    <p>Opcionais:</p>
                     <ul class="optional_list">
                         <li>
                             <input type="checkbox" id="airbag" name="optional[]" value="airbag">
@@ -71,7 +70,7 @@
                         </li>
                         <li>
                             <input type="checkbox" id="alarme" name="optional[]" value="alarme">
-                            <label for="airbag">Alarme</label>
+                            <label for="alarme">Alarme</label>
                         </li>
                         <li>
                             <input type="checkbox" id="ac" name="optional[]" value="ac">
@@ -109,6 +108,7 @@
                     <p>Envie imagens do veículo: <span class="required-field">*</span></p>
                     <input type="file" multiple accept="image/png, image/jpeg" id="images" name="images" required>
                 </div>
+                <input class="btn-submit" value="Cadastrar" type="submit">
             </form>
         </div>
     </div>
